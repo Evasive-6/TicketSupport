@@ -1,0 +1,254 @@
+[
+  {
+    "title": "Billing invoice PDF shows incorrect VAT number",
+    "description": "Our accounting department noticed that the EU VAT registration number on invoice #INV-2026-081 is truncated to 7 digits instead of 9. We need this corrected for our tax filing this Friday.",
+    "customer_email": "sarah.connor@acme-corp.com",
+    "priority": "High",
+    "status": "Open",
+    "created_at": "2026-10-04T09:15:00.000Z",
+    "updated_at": "2026-10-04T09:15:00.000Z"
+  },
+  {
+    "title": "Webhook delivery failing with 504 Gateway Timeout",
+    "description": "Outbound webhooks sent to https://api.partner.io/events have been timing out intermittently since 06:00 UTC. Approximately 18% of events are failing delivery.",
+    "customer_email": "devops@cloudscale.net",
+    "priority": "High",
+    "status": "In Progress",
+    "created_at": "2026-10-04T07:30:00.000Z",
+    "updated_at": "2026-10-04T08:45:00.000Z"
+  },
+  {
+    "title": "Slack notifications stopped firing after OAuth refresh",
+    "description": "We re-authenticated our workspace Slack app yesterday afternoon, and ticket creation notifications are no longer appearing in our #support-triage channel.",
+    "customer_email": "marcus.vance@fintechly.io",
+    "priority": "Medium",
+    "status": "Open",
+    "created_at": "2026-10-03T18:20:00.000Z",
+    "updated_at": "2026-10-03T18:20:00.000Z"
+  },
+  {
+    "title": "User cannot reset password via magic link",
+    "description": "One of our team managers is unable to access her account. The password reset magic link expires immediately upon clicking, giving an 'Invalid token' alert.",
+    "customer_email": "elena.rostova@nexus.org",
+    "priority": "High",
+    "status": "In Progress",
+    "created_at": "2026-10-03T14:10:00.000Z",
+    "updated_at": "2026-10-03T15:00:00.000Z"
+  },
+  {
+    "title": "Feature Request: Add CSV export for monthly audit logs",
+    "description": "For SOC2 compliance audits, we need an automated or one-click CSV export option for all security logs and agent ticket modifications over a selected calendar month.",
+    "customer_email": "compliance@securityfirst.com",
+    "priority": "Low",
+    "status": "Open",
+    "created_at": "2026-10-03T11:00:00.000Z",
+    "updated_at": "2026-10-03T11:00:00.000Z"
+  },
+  {
+    "title": "Dark mode contrast issues on ticket analytics graph",
+    "description": "When switching the dashboard to dark theme, the secondary lines on the resolution time chart blend into the slate background and are hard to read.",
+    "customer_email": "design-team@modernui.io",
+    "priority": "Low",
+    "status": "Resolved",
+    "created_at": "2026-10-02T16:45:00.000Z",
+    "updated_at": "2026-10-03T10:15:00.000Z"
+  },
+  {
+    "title": "Two-factor authentication lockout after device migration",
+    "description": "Employee replaced their phone and lost access to their Google Authenticator seed. Backup codes were saved on the old device. Requesting an identity check and MFA reset.",
+    "customer_email": "alex.chen@innovate.co",
+    "priority": "High",
+    "status": "Resolved",
+    "created_at": "2026-10-02T13:20:00.000Z",
+    "updated_at": "2026-10-02T16:00:00.000Z"
+  },
+  {
+    "title": "SSO/SAML configuration documentation needs update",
+    "description": "The Okta integration guide in the docs portal references Okta Classic UI fields rather than the newer Okta Identity Engine workflow.",
+    "customer_email": "it-admin@enterprise.global",
+    "priority": "Low",
+    "status": "Resolved",
+    "created_at": "2026-10-02T09:10:00.000Z",
+    "updated_at": "2026-10-02T11:30:00.000Z"
+  },
+  {
+    "title": "Stripe payment retry loop triggered for subscription #8492",
+    "description": "Our credit card on file was replaced, but the automated billing system attempted charge #8492 four times in 10 minutes, triggering fraud protection flags with our bank.",
+    "customer_email": "finance@growthpulse.com",
+    "priority": "High",
+    "status": "Open",
+    "created_at": "2026-10-01T20:30:00.000Z",
+    "updated_at": "2026-10-01T20:30:00.000Z"
+  },
+  {
+    "title": "Typo in checkout confirmation page header",
+    "description": "The order receipt screen says 'Your Subsciption has been updated' with a missing 'r'. Small copy fix needed.",
+    "customer_email": "brand@creativeagency.de",
+    "priority": "Low",
+    "status": "Resolved",
+    "created_at": "2026-10-01T15:00:00.000Z",
+    "updated_at": "2026-10-01T17:15:00.000Z"
+  },
+  {
+    "title": "Bulk ticket status update returns 413 Payload Too Large",
+    "description": "When selecting 75 tickets simultaneously and changing status to 'Resolved', the API throws a 413 error and aborts the transaction without partial completion.",
+    "customer_email": "ops-lead@speedycourier.com",
+    "priority": "Medium",
+    "status": "In Progress",
+    "created_at": "2026-10-01T11:15:00.000Z",
+    "updated_at": "2026-10-02T08:30:00.000Z"
+  },
+  {
+    "title": "Mobile Safari responsiveness glitch on ticket details view",
+    "description": "On iOS 18 Safari, the priority badge overlaps the timestamp header when the viewport width is below 380px.",
+    "customer_email": "tester@qa-labs.io",
+    "priority": "Medium",
+    "status": "Open",
+    "created_at": "2026-09-30T17:40:00.000Z",
+    "updated_at": "2026-09-30T17:40:00.000Z"
+  },
+  {
+    "title": "Zapier integration token expiring prematurely after 24h",
+    "description": "Our Zapier connection requires daily manual re-connection because the refresh token rotation fails to store the updated refresh secret.",
+    "customer_email": "automations@hyperloop-tech.com",
+    "priority": "High",
+    "status": "In Progress",
+    "created_at": "2026-09-30T13:00:00.000Z",
+    "updated_at": "2026-10-01T09:20:00.000Z"
+  },
+  {
+    "title": "Request to increase API rate limit for enterprise tier",
+    "description": "We are preparing for our Black Friday sales campaign and expect API traffic to jump from 120 req/min to 600 req/min during peak hours.",
+    "customer_email": "engineering@megastore.com",
+    "priority": "Medium",
+    "status": "Resolved",
+    "created_at": "2026-09-29T16:15:00.000Z",
+    "updated_at": "2026-09-30T11:00:00.000Z"
+  },
+  {
+    "title": "Automated weekly digest emails being marked as spam by Outlook",
+    "description": "Several customers using Office365 enterprise email reported that the weekly summary email is arriving in Junk folders due to an unaligned DKIM signature on the sub-domain.",
+    "customer_email": "deliverability@mailguard.net",
+    "priority": "Medium",
+    "status": "Open",
+    "created_at": "2026-09-29T10:20:00.000Z",
+    "updated_at": "2026-09-29T10:20:00.000Z"
+  },
+  {
+    "title": "Search query indexing slow for non-ASCII characters",
+    "description": "Searching for customer names with umlauts or accented letters (e.g., 'Björn', 'Renée') takes over 3 seconds and occasionally misses matching tickets.",
+    "customer_email": "global-support@nordictech.se",
+    "priority": "Medium",
+    "status": "In Progress",
+    "created_at": "2026-09-28T14:50:00.000Z",
+    "updated_at": "2026-09-29T08:15:00.000Z"
+  },
+  {
+    "title": "Customer requesting GDPR data export for account #1048",
+    "description": "User has invoked their Right to Data Portability under Article 20 of GDPR. Please provide an export of all tickets and chat histories linked to this customer account.",
+    "customer_email": "privacy@dataprotect.eu",
+    "priority": "High",
+    "status": "Open",
+    "created_at": "2026-09-28T09:30:00.000Z",
+    "updated_at": "2026-09-28T09:30:00.000Z"
+  },
+  {
+    "title": "Notification sound plays even when tab is muted in Chrome",
+    "description": "The audio chime for incoming urgent tickets triggers HTML5 audio playback despite browser sound permissions being set to mute.",
+    "customer_email": "audio-bug@soundscapes.co",
+    "priority": "Low",
+    "status": "Resolved",
+    "created_at": "2026-09-27T18:00:00.000Z",
+    "updated_at": "2026-09-28T12:00:00.000Z"
+  },
+  {
+    "title": "File attachment upload fails for PNGs larger than 10MB",
+    "description": "High resolution screen captures uploaded by clients fail with an unhandled exception rather than an informative size limit error message.",
+    "customer_email": "support@pixelperfect.design",
+    "priority": "Medium",
+    "status": "Open",
+    "created_at": "2026-09-27T12:10:00.000Z",
+    "updated_at": "2026-09-27T12:10:00.000Z"
+  },
+  {
+    "title": "Incorrect timezone offset displayed in agent activity feed",
+    "description": "When agents in Melbourne (AEST) view logs, timestamps show UTC without the +10:00 conversion applied, causing chronological confusion.",
+    "customer_email": "downunder@ausops.com.au",
+    "priority": "Low",
+    "status": "Resolved",
+    "created_at": "2026-09-26T08:40:00.000Z",
+    "updated_at": "2026-09-26T14:30:00.000Z"
+  },
+  {
+    "title": "Intercom widget conflicts with custom dashboard modal z-index",
+    "description": "When the Create Ticket modal opens, the third-party chat bubble floats above the backdrop and blocks the submit button on 1366x768 screens.",
+    "customer_email": "frontend@stellarapp.io",
+    "priority": "Low",
+    "status": "Open",
+    "created_at": "2026-09-25T15:20:00.000Z",
+    "updated_at": "2026-09-25T15:20:00.000Z"
+  },
+  {
+    "title": "Error 500 when filtering tickets by custom date range",
+    "description": "Selecting February 29th on a non-leap year or an invalid date string causes the backend SQL query parser to crash with an unhandled DateTime error.",
+    "customer_email": "qa@bulletproof-systems.com",
+    "priority": "High",
+    "status": "In Progress",
+    "created_at": "2026-09-25T11:00:00.000Z",
+    "updated_at": "2026-09-26T09:00:00.000Z"
+  },
+  {
+    "title": "Missing confirmation dialog when permanently closing tickets",
+    "description": "Support agents occasionally misclick and resolve open inquiries accidentally. A lightweight confirmation prompt would prevent accidental closures.",
+    "customer_email": "teamlead@customersmile.org",
+    "priority": "Medium",
+    "status": "Resolved",
+    "created_at": "2026-09-24T16:30:00.000Z",
+    "updated_at": "2026-09-25T10:00:00.000Z"
+  },
+  {
+    "title": "Webhook payload missing signature header for verification",
+    "description": "Our security gateway rejects incoming webhook events because the X-Hub-Signature-256 header is absent in the staging environment.",
+    "customer_email": "secops@cybervault.io",
+    "priority": "High",
+    "status": "Open",
+    "created_at": "2026-09-24T09:45:00.000Z",
+    "updated_at": "2026-09-24T09:45:00.000Z"
+  },
+  {
+    "title": "Request for custom domain mapping on status page",
+    "description": "We would like to point status.ourcompany.com directly to our public support ticket incident board via CNAME record.",
+    "customer_email": "david.miller@apexbranding.com",
+    "priority": "Low",
+    "status": "Open",
+    "created_at": "2026-09-23T14:15:00.000Z",
+    "updated_at": "2026-09-23T14:15:00.000Z"
+  },
+  {
+    "title": "Session expires without warning after 30 minutes of inactivity",
+    "description": "Agents drafting long ticket replies lose their unsaved drafts if they step away for lunch. Adding an autosave or idle warning popup would save hours of work.",
+    "customer_email": "claire.bennett@serviceheroes.com",
+    "priority": "Medium",
+    "status": "In Progress",
+    "created_at": "2026-09-22T13:00:00.000Z",
+    "updated_at": "2026-09-23T08:30:00.000Z"
+  },
+  {
+    "title": "PDF receipts missing company tax registration number",
+    "description": "Under French commercial law, invoices must state the SIRET number and RCS city. Please update the European billing template.",
+    "customer_email": "comptabilite@hexagone-sas.fr",
+    "priority": "Medium",
+    "status": "Resolved",
+    "created_at": "2026-09-21T10:00:00.000Z",
+    "updated_at": "2026-09-22T11:45:00.000Z"
+  },
+  {
+    "title": "Critical: DB connection pool exhaustion during peak traffic",
+    "description": "Connection pool reached max 50 connections on Monday morning, resulting in connection acquired timeouts. Pool size and connection timeout configuration adjusted.",
+    "customer_email": "infrastructure@highavailability.net",
+    "priority": "High",
+    "status": "Resolved",
+    "created_at": "2026-09-20T08:00:00.000Z",
+    "updated_at": "2026-09-20T12:00:00.000Z"
+  }
+]

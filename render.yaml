@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: support-ticket-dashboard
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    region: oregon
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+    # Note: On Render free tier, disks are not supported and SQLite runs in-memory/ephemeral.
+    # To attach a persistent 1GB disk ($0.25/mo on Starter plan), uncomment the lines below:
+    # disk:
+    #   name: sqlite-data
+    #   mountPath: /app/backend/data
+    #   sizeGB: 1

@@ -1,0 +1,25 @@
+# Ignore version control and local cache
+.git
+.gitignore
+node_modules
+*/node_modules
+npm-debug.log*
+
+# Ignore environment files
+.env
+.env.*
+backend/.env
+backend/.env.*
+
+# Ignore test and coverage
+coverage
+
+# Ignore database files during docker build (fresh DB will be migrated or mounted)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+backend/data/*.db*
+
+# Ignore dev logs
+*.log

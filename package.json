@@ -1,0 +1,24 @@
+{
+  "name": "support-ticket-dashboard-workspace",
+  "version": "1.0.0",
+  "description": "Full-stack Support Ticket Dashboard application with persistent SQLite storage",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && npm --prefix backend install",
+    "start": "node backend/src/server.js",
+    "seed": "npm --prefix backend run seed",
+    "test": "npm --prefix backend test",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "support-ticket",
+    "dashboard",
+    "express",
+    "react",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
